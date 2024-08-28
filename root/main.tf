@@ -267,8 +267,8 @@ SETTINGS
 
   protected_settings = <<PROTECTED_SETTINGS
      {
-         "storageAccountName": "akterraformstorage",
-         "storageAccountKey": "S7CoMB6QML5Gv31lAq8JVGKMRPrMvGyO3KiWsk03zstTnRImkn3NOzedUmwZ5CWrQlpx4hT/QEFq+AStUnekxQ==",
+         "storageAccountName": "****storagename*****",
+         "storageAccountKey": "***************************PrMvGyO3KiWsk03zstTnRImkn3NOzed**************************",
             "commandToExecute": "powershell.exe -ExecutionPolicy Unrestricted -file sessionHostConfig.ps1"
      }
  PROTECTED_SETTINGS
@@ -278,7 +278,7 @@ SETTINGS
 settings = <<-SETTINGS
   { 
     
-    "script": "https://akterraformstorage.blob.core.windows.net/sessionhostconfig/sessionHostConfig.ps1?sp=r&st=2024-04-02T13:56:04Z&se=2024-04-02T21:56:04Z&spr=https&sv=2022-11-02&sr=c&sig=pQGlLe2oE3Q8znCbeg9zB9HK9j50yfmWyxELnCQaAG4%3D"
+    "script": "https://storagename.blob.core.windows.net/sessionhostconfig/sessionHostConfig.ps1?sp=*****************************:56:04Z&spr=https&sv=2022-11-02*********************"
     "commandToExecute" : "powershell.exe -ExecutionPolicy Unrestricted -File sessionHostConfig.ps1"
 
 }
