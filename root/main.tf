@@ -260,7 +260,7 @@ resource "azurerm_virtual_machine_extension" "customscriptext" {
   settings = <<SETTINGS
     {  
 
-        "fileUris" : ["https://akterraformstorage.blob.core.windows.net/sessionhostconfig/sessionHostConfig.ps1?sp=r&st=2024-08-22T13:45:15Z&se=2024-08-28T21:45:15Z&skoid=a17ff046-2132-4453-8b11-be8ba22f28e2&sktid=f6b9b1fa-10dd-4c5b-8b1b-404934b17313&skt=2024-08-22T13:45:15Z&ske=2024-08-28T21:45:15Z&sks=b&skv=2022-11-02&spr=https&sv=2022-11-02&sr=b&sig=7KX5QbR%2BwsUSV9hhj%2BygqwyjRYe4EaiDaqOmCHd30E8%3D"]
+        "fileUris" : ["https://storagename*.blob.core.windows.net/sessionhostconfig/sessionHostConfig.ps1?sp=xxxxxxxxx28e2&sktid=f6b9b1fa-10dd-4c5b-8b1b-404934b17313&skt=2024-08-22T13:45:15Z&skexx"]
 
     }
 SETTINGS
