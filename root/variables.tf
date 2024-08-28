@@ -63,12 +63,12 @@ variable "client-secret" {
 
 variable "subscription_id" {
   type    = string
-  default = "761cc7e6-a477-494a-99ef-a5d6aa0fde41"
+  default = "xxxxx-494a-xxxef-a5dxxxxxx"
 }
 
 variable "tenant_id" {
   type    = string
- default = "f6b9b1fa-10dd-4c5b-8b1b-404934b17313"
+ default = "xxxxxxdd-4c5bxxxxx-4049xxxxx"
 }
 
 variable "keyvaultname" {
